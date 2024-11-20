@@ -1,0 +1,20 @@
+{
+    "name": "hl/msg",
+    "description": "msgProject",
+    "type": "project",
+    "require": {
+        "gabordemooij/redbean": "dev-master"
+    },
+    "license": "BSD",
+    "autoload": {
+        "psr-4": {
+            "App\\": "app\\"
+        }
+    },
+    "authors": [
+        {
+            "name": "mogoncharov"
+        }
+    ],
+    "minimum-stability": "dev"
+}
